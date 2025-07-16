@@ -1,0 +1,5 @@
+{
+  "name": "Gemini Image Generator",
+  "description": "An advanced image generator powered by the Gemini API. Create stunning visuals by providing detailed text prompts and customizing style, color, and emotion.",
+  "requestFramePermissions": []
+}
