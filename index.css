@@ -1,1 +1,37 @@
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles que complementan Tailwind */
+@layer base {
+  body {
+    font-family: system-ui, sans-serif;
+    background: #f8f9fa;
+    color: #222;
+    line-height: 1.6;
+  }
+}
+
+@layer components {
+  .container {
+    max-width: 960px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+  
+  .btn {
+    @apply bg-blue-600 text-white border-0 px-5 py-2 rounded cursor-pointer text-base transition-colors duration-200;
+  }
+  
+  .btn:hover {
+    @apply bg-blue-700;
+  }
+}
+
+@layer utilities {
+  /* Responsive utilities adicionales si las necesitas */
+}
